@@ -16,7 +16,8 @@ void draw() {
   
   fill(186, 44, 37);
   stroke(186, 44, 37);
-  rect(mouseX-(ch/35), mouseY-((ch-40)/2), ch/17.5, ch-40);
+  rectMode(CENTER);
+  rect(mouseX, mouseY, ch/17.5, ch-40);
   
   fill(255);
   stroke(255);
